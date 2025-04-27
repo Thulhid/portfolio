@@ -7,11 +7,13 @@ import {
   SiCssmodules,
   SiFramer,
   SiLeaflet,
+  SiMysql,
   SiReactquery,
   SiReactrouter,
   SiRedux,
 } from "react-icons/si";
 import SectionAnimate from "@/app/_components/SectionAnimate";
+import { AiOutlineJava } from "react-icons/ai";
 
 function Projects() {
   return (
@@ -21,6 +23,7 @@ function Projects() {
       </h2>
       <ul className="flex flex-col items-center gap-20 py-5 md:p-10 xl:gap-35">
         <Project
+          gitHubLink="https://github.com/Thulhid/portfolio"
           image="/projects/project-1.png"
           title="Nextjs Portfolio"
           description=" A responsive e-commerce web application built for a computer shop.
@@ -51,6 +54,8 @@ function Projects() {
           ]}
         />
         <Project
+          demoLink="https://etechzone.netlify.app/"
+          gitHubLink="https://github.com/Thulhid/e-tech-zone"
           image="/projects/project-2.png"
           title="e-tech-zone"
           description="A responsive e-commerce web application built for a computer shop.
@@ -87,6 +92,8 @@ function Projects() {
           ]}
         />
         <Project
+          demoLink="https://popcornvibe.netlify.app/"
+          gitHubLink="https://github.com/Thulhid/popcorn-vibe"
           image="/projects/project-3.png"
           title="popcorn Vibe"
           description="React.js web application that allows users to search for movies via the OMDb API, view movie details, manage a personal watchlist, and rate films. It uses Redux for global state management, React Router for client-side navigation, and CSS Modules for modular, scoped styling."
@@ -120,6 +127,8 @@ function Projects() {
           ]}
         />
         <Project
+          demoLink="https://map-mate.netlify.app/"
+          gitHubLink="https://github.com/Thulhid/map-mate"
           image="/projects/project-4.png"
           title="Map Mate"
           description="Simple JavaScript app that helps you log your day-to-day tasks and running workouts on an interactive Leaflet map, based on your current location. Built using OOP principles, it allows you to add, view, and store location-based tasks with ease. Your data is saved locally using LocalStorage."
@@ -127,7 +136,7 @@ function Projects() {
             <FaJs
               size={22}
               className="text-gray-600 dark:text-gray-400"
-              key="FaReact"
+              key="FaJs"
               title="Java Script"
             />,
             <FaHtml5
@@ -139,15 +148,35 @@ function Projects() {
             <FaCss3Alt
               size={25}
               className="text-gray-600 dark:text-gray-400"
-              key="RiTailwindCssFill"
+              key="FaCss3Alt"
               title="Global CSS"
             />,
 
             <SiLeaflet
               size={22}
               className="text-gray-600 dark:text-gray-400"
-              key="SiReactrouter"
+              key="SiLeaflet"
               title="Leaflet"
+            />,
+          ]}
+        />
+        <Project
+          gitHubLink="https://github.com/Thulhid/salon-management-system"
+          image="/projects/project-5.png"
+          title="Salon Management System"
+          description="Desktop application using JavaFX and MySQL following the MVC architecture. The system allows salon staff to register clients, schedule appointments, list clients and appointments, update and remove client information, and sort or filter clients."
+          icons={[
+            <SiMysql
+              size={40}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiMysql"
+              title="MySQL"
+            />,
+            <AiOutlineJava
+              size={35}
+              className="text-gray-600 dark:text-gray-400"
+              key="AiOutlineJava"
+              title="Java/JavaFX"
             />,
           ]}
         />

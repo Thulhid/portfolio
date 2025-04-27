@@ -15,21 +15,21 @@ export function ThemeProvider({ children }) {
     updateTheme(prefersDark);
   }, []);
 
-  const toggleTheme = () => {
+  function toggleTheme() {
     setIsDarkMode((prev) => {
       const newMode = !prev;
       updateTheme(newMode);
       return newMode;
     });
-  };
+  }
 
-  const updateTheme = (dark) => {
+  function updateTheme(dark) {
     if (dark) {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
-  };
+  }
 
   return (
     <ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>

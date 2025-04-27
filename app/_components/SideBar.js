@@ -44,7 +44,6 @@ function SideBar({ onIsToggleMenu }) {
         className="flex h-full flex-col rounded-tr-xl rounded-br-xl bg-blue-100 p-4 dark:bg-sky-700"
         ref={outsideRef}
         initial="closed"
-        // animate={menu ? 'open' : 'closed'}
         animate="open"
         exit="closed"
         variants={sidebarVariants}

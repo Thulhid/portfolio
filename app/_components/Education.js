@@ -79,7 +79,7 @@ function Education() {
 
             <p className="text-base leading-relaxed text-gray-700 dark:text-gray-300">
               Built a strong foundation in <em>software engineering</em>,{" "}
-              <em>web development</em>,<em>databases</em>, and{" "}
+              <em>web development</em>, <em>databases</em>, and{" "}
               <em>programming</em>, paving the way for advanced studies in IT.
             </p>
             <h4 className="mb-2 flex items-center gap-1 text-xl font-semibold text-gray-700 dark:text-gray-300">

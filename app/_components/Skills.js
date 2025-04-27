@@ -36,18 +36,6 @@ function Skills() {
             ease: "linear",
           }}
         >
-          {/*   <p className="py-6 text-base text-gray-600 xl:text-lg">
-            From building complex frontend web applications with React, Redux,
-            React Query, and React Router to designing clean, intuitive
-            interfaces with Figma and Tailwind CSS — I enjoy crafting user
-            experiences that feel smooth, fast, and delightful. I care deeply
-            about performance, ensuring that everything runs efficiently without
-            compromising on design or interactivity. With a good eye for motion
-            and subtle animations, I use tools like Framer Motion to bring
-            interfaces to life. I also bring a strong foundation in Java, OOP
-            principles, and JavaFX, which adds depth to my problem-solving and
-            architectural thinking.
-          </p> */}
           <article className="text-base text-gray-800 xl:text-lg dark:text-gray-300">
             <p>
               From building complex web applications with <strong>React</strong>

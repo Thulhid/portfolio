@@ -39,7 +39,7 @@ export default function TypingText({ text, speed = 100 }) {
           : undefined
       }
       transition={{ duration: 3, ease: "easeInOut" }}
-      className="mb-10 flex justify-center bg-gradient-to-r from-gray-700 via-blue-400 to-gray-700 bg-[length:300%_300%] bg-clip-text font-mono font-bold text-transparent md:text-4xl dark:from-gray-50 dark:via-sky-500 dark:to-gray-50"
+      className="mb-10 flex justify-center bg-gradient-to-r from-gray-700 via-blue-400 to-gray-700 bg-[length:300%_300%] bg-clip-text font-mono font-bold text-transparent uppercase md:text-4xl dark:from-gray-50 dark:via-sky-500 dark:to-gray-50"
     >
       {displayedText}
       {!typingDone && <span className="animate-pulse">|</span>}

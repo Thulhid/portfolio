@@ -1,14 +1,4 @@
-import { AiOutlineMenu } from "react-icons/ai";
 import { RiMenuFold3Line } from "react-icons/ri";
-
-const scrollToSection = (id) => {
-  const yOffset = -100; // Adjust this to match your navbar height
-  const el = document.getElementById(id);
-  if (el) {
-    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    window.scrollTo({ top: y, behavior: "smooth" });
-  }
-};
 
 function NavBar({ onIsToggleMenu }) {
   return (
@@ -51,7 +41,7 @@ function NavBar({ onIsToggleMenu }) {
       </li>
       <li className="inline-flex items-center xl:hidden">
         <button onClick={() => onIsToggleMenu((cur) => !cur)}>
-          <RiMenuFold3Line className="cursor-pointer text-2xl text-gray-700" />
+          <RiMenuFold3Line className="cursor-pointer text-2xl text-gray-700 dark:text-gray-300" />
         </button>
       </li>
     </ul>
