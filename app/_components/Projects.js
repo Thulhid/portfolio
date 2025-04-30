@@ -27,12 +27,8 @@ function Projects() {
           gitHubLink="https://github.com/Thulhid/portfolio"
           image="/projects/project-1.png"
           title="Nextjs Portfolio"
-          description=" A responsive e-commerce web application built for a computer shop.
-                Developed with React and styled using Tailwind CSS, it offers a
-                clean, user-friendly UI. Key features include browsing, sorting,
-                filtering, order management, and configurable shipping settings. The
-                app also uses react-hot-toast for real-time notifications,
-                delivering a smooth and interactive user experience."
+          description="Fully responsive personal portfolio website built using Next.js with Server-Side Rendering (SSR) to enhance performance and Search Engine Optimization (SEO).
+          Styled with Tailwind CSS. It features smooth animations powered by Framer Motion to enhance the user experience."
           icons={[
             <RiNextjsFill
               size={25}

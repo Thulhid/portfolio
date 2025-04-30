@@ -34,9 +34,8 @@ function Experience() {
         </p>
         <p className="my-5 text-sm text-gray-800 sm:text-base dark:text-gray-300">
           Built multiple responsive web and desktop applications, and optimized
-          performance using React.js, Next.js, Redux, React Query, Java, and
-          JavaFX for academic project solutions, while collaborating with a
-          small team.
+          performance using React.js, Redux, React Query, Java, and JavaFX for
+          academic project solutions, while collaborating with a small team.
         </p>
       </motion.div>
     </SectionAnimate>
