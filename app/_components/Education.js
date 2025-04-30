@@ -52,8 +52,8 @@ function Education() {
                 (Year 1)
               </p>
               <p className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300">
-                <IoCalendarOutline className="" />
-                <time dateTime="2023">2023</time> - Present
+                <IoCalendarOutline />
+                <time dateTime="2023-10">Oct 2023</time> - Present
               </p>
             </div>
 

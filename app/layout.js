@@ -10,7 +10,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Hiruna Thulhid",
   description:
-    "Frontend specialist skilled in React, Redux, and Next.js, building scalable and user-centered web applications.",
+    "Frontend developer skilled in React, Redux, and Next.js, building scalable and user-centered web applications.",
 };
 
 export default function RootLayout({ children }) {

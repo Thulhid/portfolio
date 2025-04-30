@@ -34,11 +34,21 @@ function NavBar({ onIsToggleMenu }) {
         {" "}
         <a
           className="text-xl text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-sky-300"
+          href="#experience"
+        >
+          Experience
+        </a>
+      </li>
+      <li className="hidden font-mono xl:block">
+        {" "}
+        <a
+          className="text-xl text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-sky-300"
           href="#education"
         >
           Education
         </a>
       </li>
+
       <li className="inline-flex items-center xl:hidden">
         <button onClick={() => onIsToggleMenu((cur) => !cur)}>
           <RiMenuFold3Line className="cursor-pointer text-2xl text-gray-700 dark:text-gray-300" />

@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import {
   SiCssmodules,
   SiFramer,
+  SiJson,
   SiLeaflet,
   SiMysql,
   SiReactquery,
@@ -127,11 +128,46 @@ function Projects() {
           ]}
         />
         <Project
+          demoLink="https://traveler-map.netlify.app/"
+          gitHubLink="https://github.com/Thulhid/traveler"
+          image="/projects/project-4.png"
+          title="Traveler"
+          description="Traveler helps save memorable places visited around the world. With a simple tap on the Leaflet map, it creates logs of travels by country, along with thoughts and experiences, exactly where and when they happen. The app uses json-server to handle data storage."
+          icons={[
+            <FaReact
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="FaReact"
+              title="React"
+            />,
+            <SiCssmodules
+              size={25}
+              className="text-gray-700 dark:text-gray-400"
+              key="RiTailwindCssFill"
+              style={{ strokeWidth: 0.4 }}
+              title="CSS Modules"
+            />,
+
+            <SiJson
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiRedux"
+              title="Redux"
+            />,
+            <SiLeaflet
+              size={22}
+              className="text-gray-600 dark:text-gray-400"
+              key="SiLeaflet"
+              title="Leaflet"
+            />,
+          ]}
+        />
+        <Project
           demoLink="https://map-mate.netlify.app/"
           gitHubLink="https://github.com/Thulhid/map-mate"
-          image="/projects/project-4.png"
+          image="/projects/project-5.png"
           title="Map Mate"
-          description="Simple JavaScript app that helps you log your day-to-day tasks and running workouts on an interactive Leaflet map, based on your current location. Built using OOP principles, it allows you to add, view, and store location-based tasks with ease. Your data is saved locally using LocalStorage."
+          description="Map Mate helps you log your day-to-day tasks and running workouts on the leaflet map, based on your current location. Built using OOP principles, it allows you to add, view, and store location-based tasks with ease. Your data is saved locally using LocalStorage."
           icons={[
             <FaJs
               size={22}
@@ -162,7 +198,7 @@ function Projects() {
         />
         <Project
           gitHubLink="https://github.com/Thulhid/salon-management-system"
-          image="/projects/project-5.png"
+          image="/projects/project-6.png"
           title="Salon Management System"
           description="Desktop application using JavaFX and MySQL following the MVC architecture. The system allows salon staff to register clients, schedule appointments, list clients and appointments, update and remove client information, and sort or filter clients."
           icons={[

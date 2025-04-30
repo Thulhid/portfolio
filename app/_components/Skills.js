@@ -55,9 +55,9 @@ function Skills() {
 
             <p>
               Also, I have a strong foundation in <strong>Java</strong>,{" "}
-              <strong>OOP principles</strong>, and <strong>JavaFX</strong>,
-              which strengthens my problem-solving skills and architectural
-              thinking.
+              <strong>OOP principles</strong>, <strong>JavaFX</strong> and{" "}
+              <strong>MySQL</strong> knowledge, which strengthens my
+              problem-solving skills and architectural thinking.
             </p>
           </article>
         </motion.div>
@@ -82,6 +82,7 @@ function Skills() {
                 ["/logos/figma.png", "Figma"],
                 ["/logos/react-router.svg", "React Router"],
                 ["/logos/java.png", "Java/Java FX"],
+                ["/logos/MySQL.png", "MySQL"],
               ].map((img, i) => (
                 <motion.img
                   key={i}
