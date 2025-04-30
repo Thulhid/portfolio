@@ -1,7 +1,6 @@
 import Button from "@/app/_components/Button";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
-import { CiMenuBurger } from "react-icons/ci";
-import { IoMailOutline, IoMenuOutline } from "react-icons/io5";
+import { IoMailOutline } from "react-icons/io5";
 
 function SocialLinks() {
   return (

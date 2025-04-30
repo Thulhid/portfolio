@@ -1,4 +1,3 @@
-"use client";
 import TypingText from "./TypingText";
 import { motion } from "framer-motion";
 import { FaChrome, FaGitAlt, FaGithub } from "react-icons/fa";

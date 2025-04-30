@@ -1,8 +1,8 @@
 import Project from "@/app/_components/Project";
 import TypingText from "@/app/_components/TypingText";
+import SectionAnimate from "@/app/_components/SectionAnimate";
 import { FaCss3Alt, FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { RiNextjsFill, RiNextjsLine, RiTailwindCssFill } from "react-icons/ri";
-import { motion } from "framer-motion";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import {
   SiCssmodules,
   SiFramer,
@@ -13,7 +13,6 @@ import {
   SiReactrouter,
   SiRedux,
 } from "react-icons/si";
-import SectionAnimate from "@/app/_components/SectionAnimate";
 import { AiOutlineJava } from "react-icons/ai";
 
 function Projects() {

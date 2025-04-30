@@ -1,4 +1,3 @@
-"use client";
 import { useOutsideClick } from "@/app/_Hooks/useOutsideClick";
 import { motion } from "framer-motion";
 

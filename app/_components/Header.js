@@ -1,4 +1,3 @@
-"use client";
 import NavBar from "@/app/_components/NavBar";
 import Signature from "@/app/_components/Signature";
 import SocialLinks from "@/app/_components/SocialLinks";

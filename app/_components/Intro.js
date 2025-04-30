@@ -1,11 +1,8 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import TypingText from "./TypingText";
 import { useDisplayLottie } from "@/app/_Hooks/useDisplayLottie";
 import SectionAnimate from "@/app/_components/SectionAnimate";
 import Button from "@/app/_components/Button";
 import { useTheme } from "@/app/_context/ThemeContext";
+import TypingText from "./TypingText";
 
 export default function Intro() {
   const { isDarkMode } = useTheme();
@@ -29,7 +26,13 @@ export default function Intro() {
             I&apos;m a motivated developer constantly learning, iterating, and
             crafting meaningful web applications.
           </p>
-          <Button variant="primary">Download CV</Button>
+          <Button
+            variant="primary"
+            link="/cv-hiruna-thulhid.pdf"
+            isDownload={true}
+          >
+            Download CV
+          </Button>
         </div>
         <div className="order-1 w-[20rem] rounded-2xl transition-all duration-300 md:order-2 md:w-[25rem] xl:w-lg dark:w-[15rem] dark:md:w-[20rem] dark:xl:ml-30 dark:xl:w-xs">
           {animationData ? (

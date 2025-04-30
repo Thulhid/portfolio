@@ -1,6 +1,6 @@
+import Button from "@/app/_components/Button";
 import { FaPlay } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
-import Button from "@/app/_components/Button";
 import Image from "next/image";
 
 function Project({ image, title, description, icons, demoLink, gitHubLink }) {

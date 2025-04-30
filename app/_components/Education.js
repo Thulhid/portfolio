@@ -1,20 +1,15 @@
-"use client";
-import { useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
 import TypingText from "@/app/_components/TypingText";
-import dynamic from "next/dynamic";
 import { useDisplayLottie } from "@/app/_Hooks/useDisplayLottie";
 import SectionAnimate from "@/app/_components/SectionAnimate";
+import { useTheme } from "@/app/_context/ThemeContext";
+import { useRef } from "react";
+import { motion } from "framer-motion";
 import { IoCalendarOutline } from "react-icons/io5";
-import { CiMedal } from "react-icons/ci";
 import { FaMedal } from "react-icons/fa";
 import { AiOutlineFileDone } from "react-icons/ai";
-import { useTheme } from "@/app/_context/ThemeContext";
 
 function Education() {
-  const lottieRef = useRef();
   const { isDarkMode } = useTheme();
-
   const { animationData, Lottie } = useDisplayLottie(
     isDarkMode ? "education-night.json" : "education-light.json",
   );
@@ -45,11 +40,7 @@ function Education() {
                 University of Colombo School of Computing (UCSC)
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-300">
-                GPA:{" "}
-                <span className="font-semibold text-gray-800 dark:text-gray-100">
-                  3.6
-                </span>{" "}
-                (Year 1)
+                GPA: 3.6 (Year 1)
               </p>
               <p className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300">
                 <IoCalendarOutline />

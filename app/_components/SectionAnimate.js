@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
 import { useIsXL } from "@/app/_Hooks/useIsXL";
+import { motion } from "framer-motion";
 
 export default function SectionAnimate({ id, children }) {
   const { isXL } = useIsXL();
