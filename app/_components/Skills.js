@@ -37,8 +37,9 @@ function Skills() {
         >
           <article className="text-base text-gray-800 xl:text-lg dark:text-gray-300">
             <p>
-              From building complex web applications with <strong>React</strong>
-              , <strong>Next.js</strong>, <strong>Redux</strong>,{" "}
+              From building complex web applications with{" "}
+              <strong>JavaScript</strong>, <strong>React.js</strong>,{" "}
+              <strong>Next.js</strong>, <strong>Redux</strong>,{" "}
               <strong>React Query</strong>, and <strong>React Router</strong> to
               crafting clean, intuitive interfaces using <strong>Figma</strong>{" "}
               and <strong>Tailwind CSS</strong> — I enjoy creating user
