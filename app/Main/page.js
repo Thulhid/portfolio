@@ -24,7 +24,7 @@ export default function Main() {
       <Intro />
       <Projects isToggleMenu={isToggleMenu} />
       <Skills isToggleMenu={isToggleMenu} />
-      <Experience />
+      <Experience isToggleMenu={isToggleMenu} />
       <Education isToggleMenu={isToggleMenu} />
     </div>
   );
